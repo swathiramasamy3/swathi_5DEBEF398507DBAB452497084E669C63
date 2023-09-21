@@ -1,0 +1,11 @@
+def leapyear(year):
+  if(year%4==0) and (year%100!=0):
+    print(year,"is a leapyear")
+  elif(year%100==0):
+    print(year,"  is not a leapyear")
+  else:
+    print(year,"is not a leapyear.")
+    
+    
+year=int(input("Enter the year:"))
+print(leapyear(year))
